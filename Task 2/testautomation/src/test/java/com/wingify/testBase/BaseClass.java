@@ -28,7 +28,7 @@ public class BaseClass{
 
 		
 		test.info("Test setup initialisation");
-		System.setProperty("webdriver.chrome.driver", "/Users/angabiazam/eclipse-workspace/testautomation/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://app.vwo.com/#/analyze/heatmap/129/reports?token=eyJhY2NvdW50X2lkIjo2LCJleHBlcmltZW50X2lkIjoxMjksImNyZWF0ZWRfb24iOjE1MDc3ODk0ODcsInR5cGUiOiJjYW1wYWlnbiIsInZlcnNpb24iOjEsImhhc2giOiJiMzlmMTQ4MWE0ZDMyN2Q4MDllNTM1YzVlNWFjOGVlMCJ9");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
