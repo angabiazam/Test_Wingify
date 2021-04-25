@@ -58,7 +58,7 @@ public class HeatMap extends BaseClass implements ObjectRepository {
 		}
 		else
 		{
-			test.log(Status.FAIL, "Navigated to the heatmap picture");
+			test.log(Status.FAIL, "Does not navigate to the heatmap picture");
 		}
 	}
 
