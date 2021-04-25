@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-23T16:52:15Z" name="Default suite" finished-at="2021-04-23T16:52:41Z" duration-ms="26491">
+    <groups>
+    </groups>
+    <test started-at="2021-04-23T16:52:15Z" name="Default test" finished-at="2021-04-23T16:52:41Z" duration-ms="26491">
+      <class name="com.wingify.TestScripts.StartFreeTrial">
+        <test-method is-config="true" signature="browserInitialisation()[pri:0, instance:com.wingify.TestScripts.StartFreeTrial@1151e434]" started-at="2021-04-23T16:52:15Z" name="browserInitialisation" finished-at="2021-04-23T16:52:22Z" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="startfreetrial()[pri:0, instance:com.wingify.TestScripts.StartFreeTrial@1151e434]" started-at="2021-04-23T16:52:22Z" name="startfreetrial" finished-at="2021-04-23T16:52:40Z" duration-ms="18268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startfreetrial -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:com.wingify.TestScripts.StartFreeTrial@1151e434]" started-at="2021-04-23T16:52:40Z" name="browserTermination" finished-at="2021-04-23T16:52:41Z" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+      </class> <!-- com.wingify.TestScripts.StartFreeTrial -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
